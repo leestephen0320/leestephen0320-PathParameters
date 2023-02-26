@@ -20,6 +20,7 @@ public class JavalinSingleton {
             
             //write code here
             String first = ctx.pathParam("name");
+            ctx.result(first);
 
         });
 
